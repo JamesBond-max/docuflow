@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specification>
+  <project>Atlas Memory Interface</project>
+  <revision>B</revision>
+  <interface>Synthetic DDR-style interface</interface>
+  <owner>Engineering documentation</owner>
+  <parameters>
+    <parameter name="Supply voltage" value="1.10" unit="V" min="1.05" max="1.15"/>
+    <parameter name="Clock frequency" value="800" unit="MHz" min="750" max="850"/>
+    <parameter name="Bus width" value="64" unit="bit" min="64" max="64"/>
+    <parameter name="Operating temperature" value="90" unit="C" min="0" max="85"/>
+    <parameter name="Current draw" value="20" unit="mA" min="10" max="30"/>
+    <parameter name="Setup time" value="0.25" unit="ns" min="0.20" max="0.50"/>
+  </parameters>
+</specification>

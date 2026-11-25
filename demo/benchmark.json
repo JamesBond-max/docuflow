@@ -1,0 +1,13 @@
+{
+  "runs": 5,
+  "seconds_per_run": [
+    0.768493,
+    0.900372,
+    0.691727,
+    0.668469,
+    0.661386
+  ],
+  "median_automation_seconds": 0.691727,
+  "manual_baseline_seconds": null,
+  "estimated_time_reduction_percent": null
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "project": "Atlas Memory Interface",
+    "revision": "B",
+    "interface": "Synthetic DDR-style interface",
+    "owner": "Engineering documentation"
+  },
+  "headers": [
+    "Parameter",
+    "Value",
+    "Unit",
+    "Minimum",
+    "Maximum",
+    "Status"
+  ],
+  "rows": [
+    [
+      "Supply voltage",
+      "1.10",
+      "V",
+      "1.05",
+      "1.15",
+      "PASS"
+    ],
+    [
+      "Clock frequency",
+      "800",
+      "MHz",
+      "750",
+      "850",
+      "PASS"
+    ],
+    [
+      "Bus width",
+      "64",
+      "bit",
+      "64",
+      "64",
+      "PASS"
+    ],
+    [
+      "Operating temperature",
+      "90",
+      "C",
+      "0",
+      "85",
+      "FAIL"
+    ],
+    [
+      "Current draw",
+      "20",
+      "mA",
+      "10",
+      "30",
+      "PASS"
+    ],
+    [
+      "Setup time",
+      "0.25",
+      "ns",
+      "0.20",
+      "0.50",
+      "PASS"
+    ]
+  ],
+  "metrics": {
+    "parameters": 6,
+    "in_range": 5,
+    "out_of_range": 1,
+    "formats_generated": 6,
+    "formats_verified": 6,
+    "format_consistency": 1.0,
+    "processing_seconds": 0.91582
+  },
+  "format_checks": {
+    "docx": true,
+    "xlsx": true,
+    "pptx": true,
+    "html": true,
+    "md": true,
+    "pdf": true
+  }
+}

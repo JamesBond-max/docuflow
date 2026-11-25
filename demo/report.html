@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Engineering Specification Review</title>
+<style>
+body {
+    font:16px Arial;
+    max-width:1000px;
+    margin:40px auto;
+    padding:20px;
+    color:#1e293b;
+}
+h1,th {color:#183B56;}
+table {border-collapse:collapse;width:100%;}
+td,th {
+    border:1px solid #cbd5e1;
+    padding:10px;
+    text-align:left;
+}
+img {width:100%;}
+</style>
+</head>
+<body>
+<h1>Engineering Specification Review</h1>
+<p>Project: Atlas Memory Interface</p><p>Revision: B</p><p>Interface: Synthetic DDR-style interface</p><p>Owner: Engineering documentation</p><p>Parameters: 6 | Pass: 5 | Fail: 1</p>
+<img src="workflow.png" alt="Documentation workflow"/>
+<table>
+<thead><tr><th>Parameter</th><th>Value</th><th>Unit</th><th>Minimum</th><th>Maximum</th><th>Status</th></tr></thead>
+<tbody><tr><td>Supply voltage</td><td>1.10</td><td>V</td><td>1.05</td><td>1.15</td><td>PASS</td></tr><tr><td>Clock frequency</td><td>800</td><td>MHz</td><td>750</td><td>850</td><td>PASS</td></tr><tr><td>Bus width</td><td>64</td><td>bit</td><td>64</td><td>64</td><td>PASS</td></tr><tr><td>Operating temperature</td><td>90</td><td>C</td><td>0</td><td>85</td><td>FAIL</td></tr><tr><td>Current draw</td><td>20</td><td>mA</td><td>10</td><td>30</td><td>PASS</td></tr><tr><td>Setup time</td><td>0.25</td><td>ns</td><td>0.20</td><td>0.50</td><td>PASS</td></tr></tbody>
+</table>
+<footer>Synthetic demonstration - engineering review required</footer>
+</body>
+</html>

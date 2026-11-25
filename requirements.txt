@@ -1,0 +1,7 @@
+﻿python-docx
+openpyxl
+python-pptx
+reportlab
+PyYAML
+PyMuPDF
+Pillow>=10.1
